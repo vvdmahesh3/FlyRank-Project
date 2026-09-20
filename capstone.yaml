@@ -1,0 +1,77 @@
+# FlyRank Capstone Manifest
+# This file declares the project's requirements and how each is met.
+# Evaluator: use this as a checklist against EVIDENCE.md.
+
+project:
+  name: "FlyRank — Embeddable Widget & Lead-Capture Platform"
+  track: "Backend"
+  phase: 1 (Design & Initial Setup) — complete
+  language: python
+  framework: fastapi
+  database: postgresql
+  cost_constraint: "$0 — no paid APIs, no credit cards"
+
+requirements:
+  - id: REQ-1
+    name: "Widget Management API"
+    description: "Authenticated CRUD for widgets, tenant-isolated"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-1"
+
+  - id: REQ-2
+    name: "Embed Snippet Generation"
+    description: "Generate a single <script> tag per widget"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-2"
+
+  - id: REQ-3
+    name: "Cached Widget Delivery"
+    description: "Serve JS and Config with HTTP cache headers (versioned)"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-3"
+
+  - id: REQ-4
+    name: "Public Submission Endpoint"
+    description: "Handle CORS, validate input, store linked to widget/tenant"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-4"
+
+  - id: REQ-5
+    name: "Protection & Enrichment"
+    description: "Rate limiting, honeypot, geo fallback chain, safe side effects"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-5"
+
+  - id: REQ-6
+    name: "Owner Dashboard API"
+    description: "Stats/analytics endpoints, tenant-isolated"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-6"
+
+  - id: REQ-7
+    name: "Multi-Tenant Isolation"
+    description: "Tenant A must never access Tenant B's data"
+    status: implemented
+    evidence: "See EVIDENCE.md → REQ-7"
+
+stack:
+  - fastapi
+  - sqlalchemy
+  - postgresql
+  - pydantic
+  - slowapi
+  - httpx
+  - mailpit
+  - docker-compose
+
+deliverables:
+  - path: README.md
+    status: present
+  - path: capstone.yaml
+    status: present
+  - path: EVIDENCE.md
+    status: present
+  - path: BUILDLOG.md
+    status: present
+  - path: .env.example
+    status: present
