@@ -2,10 +2,11 @@
 
 > A production-style, multi-tenant backend platform that lets customers create embeddable lead-capture widgets and deploy them on external websites using a single `<script>` tag.
 
-**Author:** Peruri Veera Venkata Durga Mahesh
-**Lane:** Backend Engineering Track
-**Repository:** https://github.com/vvdmahesh3/FlyRank-Project
-**Date:** September 2026
+**Author:** Peruri Veera Venkata Durga Mahesh  
+**Lane:** Backend Engineering Track  
+**Repository:** https://github.com/vvdmahesh3/FlyRank-Project  
+**Project repo:** https://github.com/vvdmahesh3/FixIt-AI  
+**Date:** September 2026  
 **License:** MIT
 
 ---
