@@ -4,7 +4,7 @@
 
 **Author:** Peruri Veera Venkata Durga Mahesh
 **Lane:** Backend Engineering Track
-**Repository:** [srinivascl167/Embeddable-Widget-Lead-Capture-Platform](https://github.com/srinivascl167/Embeddable-Widget-Lead-Capture-Platform)
+**Repository:** https://github.com/vvdmahesh3/FlyRank-Project
 **Date:** September 2026
 **License:** MIT
 
